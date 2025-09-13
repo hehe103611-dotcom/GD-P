@@ -136,6 +136,36 @@
         opacity: 1;
         transform: translateY(0);
       }
+      /* --- Thiết kế đáp ứng cho điện thoại & máy tính bảng --- */
+      @media screen and (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          padding: 15px 20px;
+        }
+        nav div:first-child {
+          margin-bottom: 10px;
+        }
+        nav a {
+          margin: 0 8px;
+        }
+        header {
+          height: 50vh;
+        }
+        header h1 {
+          font-size: 2rem;
+          padding: 0 10px;
+        }
+        header p {
+          font-size: 1rem;
+          padding: 0 10px;
+        }
+        section {
+          padding: 50px 20px;
+        }
+        section h2 {
+          font-size: 1.5rem;
+        }
+      }
     </style>
   </head>
   <body>
