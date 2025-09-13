@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bối cảnh Đồng Nai</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        line-height: 1.7;
+        color: #333;
+        background: #fafafa;
+      }
+      h1,
+      h2 {
+        font-family: "Merriweather", serif;
+      }
+      nav {
+        background: #2c3e50;
+        color: white;
+        padding: 15px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: 600;
+      }
+      nav a:hover {
+        color: #4caf50;
+      }
+      header {
+        height: 60vh;
+        background: url("https://images.unsplash.com/photo-1503264116251-35a269479413")
+          center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        position: relative;
+      }
+      header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+      }
+      header .text {
+        position: relative;
+        z-index: 2;
+      }
+      section {
+        padding: 80px 50px;
+        max-width: 1000px;
+        margin: auto;
+      }
+      section:nth-child(even) {
+        background: #f0f0f0;
+      }
+      .img {
+        margin: 20px 0;
+        text-align: center;
+      }
+      .img img {
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+      footer {
+        background: #222;
+        color: #aaa;
+        text-align: center;
+        padding: 20px;
+      }
+      /* --- Thiết kế đáp ứng cho điện thoại & máy tính bảng --- */
+      @media screen and (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          padding: 15px 20px;
+        }
+        nav div:first-child {
+          margin-bottom: 10px;
+        }
+        nav a {
+          margin: 0 8px;
+        }
+        header {
+          height: 50vh;
+        }
+        header h1 {
+          font-size: 2rem;
+          padding: 0 10px;
+        }
+        header p {
+          font-size: 1rem;
+          padding: 0 10px;
+        }
+        section {
+          padding: 50px 20px;
+        }
+        section h2 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div><a href="index.html">🌍 Đồng Nai Xanh</a></div>
+      <div>
+        <a href="context.html">Bối cảnh</a>
+        <a href="pollutants.html">Ô nhiễm</a>
+        <a href="solutions.html">Giải pháp</a>
+      </div>
+    </nav>
+    <header>
+      <div class="text">
+        <h1>Bối cảnh Đồng Nai hiện nay</h1>
+        <p>Một bức tranh vừa rực rỡ vừa đầy lo lắng...</p>
+      </div>
+    </header>
+    <section>
+      <h2>Đồng Nai – Vùng đất trù phú</h2>
+      <p>
+        Đồng Nai là trái tim công nghiệp của miền Nam, nơi dòng sông Đồng Nai
+        nuôi sống hàng triệu cư dân. Nhưng cùng với sự phát triển, môi trường
+        cũng đang gánh chịu sức ép khổng lồ.
+      </p>
+      <div class="img">
+        <img
+          src="https://images.unsplash.com/photo-1523978591478-c753949ff840"
+          alt="Đồng Nai"
+        />
+      </div>
+    </section>
+    <section>
+      <h2>Ô nhiễm gia tăng</h2>
+      <p>
+        Không khí tại các khu công nghiệp đặc quánh khói bụi, dòng sông ôm lấy
+        rác thải và hóa chất. Thiên nhiên như một người mẹ phải nuốt trọn cả sự
+        tổn thương để che chở con người.
+      </p>
+      <div class="img">
+        <img
+          src="https://images.unsplash.com/photo-1505739770228-0c9f43d9f3cc"
+          alt="Ô nhiễm"
+        />
+      </div>
+    </section>
+    <section>
+      <h2>Những con số biết nói</h2>
+      <p>
+        Nhiều nghiên cứu cho thấy tỉ lệ bệnh hô hấp và ung thư gia tăng, nguồn
+        nước ngầm đang bị xâm lấn bởi hóa chất. Con người Đồng Nai đang phải đối
+        diện với hậu quả mỗi ngày.
+      </p>
+    </section>
+    <section>
+      <h2>Thiên nhiên lên tiếng</h2>
+      <p>
+        Cây xanh ít đi, sông hồ cạn dần, không khí nặng nề. Như một người bạn
+        thở dốc, thiên nhiên mong mỏi bàn tay cứu giúp.
+      </p>
+    </section>
+    <footer>
+      <p>© 2025 Đồng Nai Xanh</p>
+    </footer>
+  </body>
+</html>

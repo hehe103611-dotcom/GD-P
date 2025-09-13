@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Các chất gây ô nhiễm</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Poppins", sans-serif;
+        line-height: 1.7;
+        background: #fff;
+        color: #333;
+      }
+      nav {
+        background: #1a1a1a;
+        color: white;
+        padding: 15px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+      }
+      nav a:hover {
+        color: #4caf50;
+      }
+      header {
+        height: 60vh;
+        background: url("https://images.unsplash.com/photo-1606112219348-204d7d8b94ee")
+          center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        position: relative;
+      }
+      header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+      }
+      header .text {
+        position: relative;
+        z-index: 2;
+      }
+      section {
+        padding: 80px 50px;
+        max-width: 1000px;
+        margin: auto;
+      }
+      section:nth-child(odd) {
+        background: #f9f9f9;
+      }
+      h2 {
+        color: #2c3e50;
+      }
+      .img {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .img img {
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+      footer {
+        background: #222;
+        color: #aaa;
+        text-align: center;
+        padding: 20px;
+      }
+      /* --- Thiết kế đáp ứng cho điện thoại & máy tính bảng --- */
+      @media screen and (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          padding: 15px 20px;
+        }
+        nav div:first-child {
+          margin-bottom: 10px;
+        }
+        nav a {
+          margin: 0 8px;
+        }
+        header {
+          height: 50vh;
+        }
+        header h1 {
+          font-size: 2rem;
+          padding: 0 10px;
+        }
+        header p {
+          font-size: 1rem;
+          padding: 0 10px;
+        }
+        section {
+          padding: 50px 20px;
+        }
+        section h2 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div><a href="index.html">🌍 Đồng Nai Xanh</a></div>
+      <div>
+        <a href="context.html">Bối cảnh</a>
+        <a href="pollutants.html">Ô nhiễm</a>
+        <a href="solutions.html">Giải pháp</a>
+      </div>
+    </nav>
+    <header>
+      <div class="text">
+        <h1>Các chất gây ô nhiễm</h1>
+        <p>Kẻ thù vô hình tàn phá sức khỏe và thiên nhiên</p>
+      </div>
+    </header>
+    <section>
+      <h2>Bụi mịn (PM2.5)</h2>
+      <p>
+        Nhỏ bé như hạt bụi, nhưng có thể chui vào tận phổi. Bụi mịn khiến hàng
+        ngàn người mắc bệnh hô hấp.
+      </p>
+      <div class="img">
+        <img
+          src="https://images.unsplash.com/photo-1502303756780-2c9b27ecb3be"
+          alt="Bụi mịn"
+        />
+      </div>
+    </section>
+    <section>
+      <h2>CO₂ và khí nhà kính</h2>
+      <p>
+        Như tấm chăn vô hình, khí nhà kính khiến Trái Đất nóng lên, thời tiết
+        cực đoan hơn. Đồng Nai cũng không tránh khỏi.
+      </p>
+    </section>
+    <section>
+      <h2>SO₂ và NOx</h2>
+      <p>
+        Sinh ra từ công nghiệp, những khí này gây mưa axit – khiến cây cối úa
+        vàng như bị thiêu đốt.
+      </p>
+    </section>
+    <section>
+      <h2>Rác thải nhựa</h2>
+      <p>
+        Những chiếc túi nilon vô hồn nằm vĩnh viễn dưới sông, như những vết sẹo
+        không bao giờ lành.
+      </p>
+    </section>
+    <section>
+      <h2>Kim loại nặng</h2>
+      <p>
+        Chì, thủy ngân lặng lẽ ngấm vào nguồn nước, gây hại cho cả thế hệ tương
+        lai.
+      </p>
+    </section>
+    <footer>
+      <p>© 2025 Đồng Nai Xanh</p>
+    </footer>
+  </body>
+</html>

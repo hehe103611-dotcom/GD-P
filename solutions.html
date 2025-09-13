@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giải pháp bảo vệ môi trường</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+        line-height: 1.7;
+        background: #fafafa;
+        color: #333;
+        scroll-behavior: smooth;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Merriweather", serif;
+      }
+      nav {
+        background: #34495e;
+        color: white;
+        padding: 15px 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: 600;
+        transition: 0.3s;
+      }
+      nav a:hover {
+        color: #4caf50;
+      }
+      header {
+        height: 60vh;
+        background: url("https://images.unsplash.com/photo-1508780709619-79562169bc64")
+          center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: center;
+        position: relative;
+      }
+      header::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+      }
+      header .text {
+        position: relative;
+        z-index: 2;
+        max-width: 800px;
+      }
+      section {
+        padding: 80px 50px;
+        max-width: 1000px;
+        margin: auto;
+      }
+      section:nth-child(even) {
+        background: #f0f0f0;
+      }
+      .img {
+        text-align: center;
+        margin: 20px 0;
+      }
+      .img img {
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+      footer {
+        background: #222;
+        color: #aaa;
+        text-align: center;
+        padding: 20px;
+      }
+      /* --- Thiết kế đáp ứng cho điện thoại & máy tính bảng --- */
+      @media screen and (max-width: 768px) {
+        nav {
+          flex-direction: column;
+          padding: 15px 20px;
+        }
+        nav div:first-child {
+          margin-bottom: 10px;
+        }
+        nav a {
+          margin: 0 8px;
+        }
+        header {
+          height: 50vh;
+        }
+        header h1 {
+          font-size: 2rem;
+          padding: 0 10px;
+        }
+        header p {
+          font-size: 1rem;
+          padding: 0 10px;
+        }
+        section {
+          padding: 50px 20px;
+        }
+        section h2 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div><a href="index.html">🌍 Đồng Nai Xanh</a></div>
+      <div>
+        <a href="context.html">Bối cảnh</a>
+        <a href="pollutants.html">Ô nhiễm</a>
+        <a href="solutions.html">Giải pháp</a>
+      </div>
+    </nav>
+
+    <header>
+      <div class="text">
+        <h1>Giải pháp bảo vệ môi trường Đồng Nai</h1>
+        <p>Hành động hôm nay, vì một tương lai xanh cho thế hệ mai sau</p>
+      </div>
+    </header>
+
+    <!-- Giải pháp 1: Giảm thiểu rác thải nhựa -->
+    <section>
+      <h2>1. Giảm thiểu rác thải nhựa</h2>
+      <p>
+        Rác thải nhựa là mối đe dọa nghiêm trọng cho sông hồ và đất đai. Chúng
+        ta có thể hạn chế sử dụng túi nilon, chai nhựa và các vật dụng dùng một
+        lần.
+      </p>
+      <ul>
+        <li>Sử dụng túi vải, chai thủy tinh và bình nước tái sử dụng.</li>
+        <li>Tách rác tại nguồn và tham gia các chiến dịch thu gom rác.</li>
+        <li>Tham gia vào các phong trào nâng cao nhận thức về nhựa.</li>
+      </ul>
+      <div class="img">
+        <img
+          src="https://moit.gov.vn/upload/2005517/fck/files/anh_minh_hoa_3_5184d.jpg"
+          alt="Giảm rác thải nhựa"
+        />
+      </div>
+    </section>
+
+    <!-- Giải pháp 2: Trồng cây và bảo vệ rừng -->
+    <section>
+      <h2>2. Trồng cây và bảo vệ rừng</h2>
+      <p>
+        Rừng là lá phổi xanh của Đồng Nai, giúp điều hòa không khí và bảo vệ đa
+        dạng sinh học.
+      </p>
+      <ul>
+        <li>Tham gia trồng cây đầu nguồn và các dự án cộng đồng.</li>
+        <li>Bảo vệ rừng hiện có, không khai thác trái phép.</li>
+        <li>Khuyến khích các dự án sinh thái và bảo tồn thiên nhiên.</li>
+      </ul>
+      <div class="img">
+        <img
+          src="https://tse3.mm.bing.net/th/id/OIP.gS1FDQBpNNGlyFRh7_iRyQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+          alt="Trồng cây"
+        />
+      </div>
+    </section>
+
+    <!-- Giải pháp 3: Tiết kiệm năng lượng -->
+    <section>
+      <h2>3. Tiết kiệm năng lượng</h2>
+      <p>
+        Sử dụng năng lượng hiệu quả giúp giảm phát thải khí nhà kính và bảo vệ
+        môi trường.
+      </p>
+      <ul>
+        <li>Sử dụng đèn LED và thiết bị tiết kiệm điện.</li>
+        <li>Tắt các thiết bị điện khi không sử dụng.</li>
+        <li>Khuyến khích dùng năng lượng tái tạo như năng lượng mặt trời.</li>
+      </ul>
+      <div class="img">
+        <img
+          src="https://media.vneconomy.vn/images/upload/2024/09/19/tiet-kiem-nang-luong.jpg"
+          alt="Tiết kiệm năng lượng"
+        />
+      </div>
+    </section>
+
+    <!-- Giải pháp 4: Giáo dục và nâng cao nhận thức -->
+    <section>
+      <h2>4. Giáo dục và nâng cao nhận thức</h2>
+      <p>
+        Hiểu biết về môi trường giúp mỗi người thay đổi thói quen và tác động
+        tích cực đến cộng đồng.
+      </p>
+      <ul>
+        <li>Tổ chức các buổi hội thảo về môi trường.</li>
+        <li>Chia sẻ thông tin trên mạng xã hội về ô nhiễm và cách bảo vệ.</li>
+        <li>Khuyến khích học sinh và sinh viên tham gia các dự án xanh.</li>
+      </ul>
+      <div class="img">
+        <img
+          src="https://cdn.vietnambiz.vn/2019/10/23/environmentaleducation-15718044705131881423928.jpg"
+          alt="Giáo dục môi trường"
+        />
+      </div>
+    </section>
+
+    <!-- Giải pháp 5: Tham gia các chiến dịch cộng đồng -->
+    <section>
+      <h2>5. Tham gia các chiến dịch cộng đồng</h2>
+      <p>
+        Đồng Nai cần sự chung tay của mọi người để giữ gìn môi trường trong
+        lành.
+      </p>
+      <ul>
+        <li>Tham gia ngày dọn rác trên sông và bãi biển.</li>
+        <li>Ủng hộ các dự án xanh địa phương.</li>
+        <li>Tạo nhóm cộng đồng bảo vệ môi trường trong khu dân cư.</li>
+      </ul>
+      <div class="img">
+        <img
+          src="https://moitruongxaydungvn.vn/uploads/images/dong-nai-hieu-qua-tu-chuong-trinh-lien-tich-hanh-dong-bao-ve-moi-truong%20(1).jpg"
+          alt="Chiến dịch cộng đồng"
+        />
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Đồng Nai Xanh - Chung tay vì một tương lai bền vững</p>
+    </footer>
+  </body>
+</html>
